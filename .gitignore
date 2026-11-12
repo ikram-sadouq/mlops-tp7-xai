@@ -1,0 +1,19 @@
+@"
+# Environnement virtuel
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# MLflow
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlartifacts/
+
+# Fichiers temporaires
+.env
+*.log
+.pytest_cache/
+.ipynb_checkpoints/
+"@ | Set-Content .gitignore
